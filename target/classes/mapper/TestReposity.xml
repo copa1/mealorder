@@ -1,0 +1,11 @@
+<!--12.21 测试mapper的xml版本 -->
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.copa.mealorder.repository.mybatis.TestReposity">
+
+    <select id="get" resultType="com.copa.mealorder.model.TestEntity">
+        select *
+        from test
+    </select>
+</mapper>
