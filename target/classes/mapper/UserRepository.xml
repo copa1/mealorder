@@ -23,7 +23,7 @@
         from employee e
         LEFT JOIN employee_role er on e.id= er.employee_id
         LEFT JOIN role r on er.role_id=r.id
-        where username= #{username}
+        where username= #{usernae}
     </select>
 
 

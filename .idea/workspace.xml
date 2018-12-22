@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f728afcd-3f9d-448e-89cf-b28d4f7ff01a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mealorder.iml" afterPath="$PROJECT_DIR$/mealorder.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/copa/mealorder/controller/TestController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/copa/mealorder/model/TestEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/copa/mealorder/repository/mybatis/TestReposity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/copa/mealorder/service/impl/TestService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TestReposity.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/test.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/copa/mealorder/controller/TestController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/copa/mealorder/model/TestEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/copa/mealorder/repository/mybatis/TestReposity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/copa/mealorder/service/impl/TestService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TestReposity.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/test.html" afterPath="" />
-    </list>
+    <list default="true" id="f728afcd-3f9d-448e-89cf-b28d4f7ff01a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -527,12 +511,12 @@
       <option name="presentableId" value="Default" />
       <updated>1545394218093</updated>
       <workItem from="1545394229126" duration="7594000" />
-      <workItem from="1545452052769" duration="8099000" />
+      <workItem from="1545452052769" duration="8233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15693000" />
+    <option name="totallyTimeSpent" value="15827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="330" y="135" width="1295" height="952" extended-state="0" />
