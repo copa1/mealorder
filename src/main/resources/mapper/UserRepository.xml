@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.copa.mealorder.repository.mybatis.UserRepository">
+    <resultMap id="employeeMap" type="com.copa.mealorder.model.Employee">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="phone" column="phone"/>
+        <result property="gender" column="gender"/>
+        <result property="email" column="email"/>
+        <result property="realName" column="realName"/>
+        <result property="avater" column="avater"/>
+        <result property="recentlyLanded" column="recentlyLanded"/>
+        <collection property="roles" ofType="com.copa.mealorder.model.Role">
+            <id property="id" column="id"/>
+            <result property="name" column="name"/>
+        </collection>
+    </resultMap>
+
+    <select id="findByUsername" parameterType="String" resultMap="employeeMap">
+        select e.*,r.name
+        from employee e
+        LEFT JOIN employee_role er on e.id= er.employee_id
+        LEFT JOIN role r on er.role_id=r.id
+        where username= #{usernae}
+    </select>
+
+
+</mapper>
