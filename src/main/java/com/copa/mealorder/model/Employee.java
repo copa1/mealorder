@@ -40,7 +40,7 @@ public class Employee {
     //员工头像
     private String avatar;
 
-    //员工最后一次登录时间
+    //员工最近登录时间
     private String recentlyLanded;
 
     //员工所包含的角色

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
  */
 
 @Repository
-public interface UserRepository {
+public interface EmployeeRepository {
 
     /**
      * 通过用户名查找员工
